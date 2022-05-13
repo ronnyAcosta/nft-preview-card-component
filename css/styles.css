@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Roboto&family=Sofia&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+  font-family: 'Outfit', sans-serif;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(217, 54%, 11%);
+  
+  
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+main{
+    
+    width: auto;
+    min-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+h1{
+    
+    font-weight: 600;
+    color: white;
+    font-size: 22.5px;
+    margin: 20px 0px;
+}
+
+.line{
+    border-color: hsl(215, 32%, 27%);
+}
+.card{
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    width: 300px;
+    height: auto;
+    
+
+}
+.card a{
+    text-decoration: none;
+
+}
+h1:hover {
+    color: hsl(178, 100%, 50%);
+}
+.card a:hover img {
+    opacity: 0.5;
+    background-color: hsl(178, 100%, 50%);
+    
+}
+
+.active-image{
+    display: flex;
+}
+.active-image embed{
+    display: none;
+    
+}
+.active-image:hover{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(178, 100%, 50%);
+    border-radius: 15px;
+    
+}
+ .active-image:hover embed{
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    
+    
+}
+
+.card > p{
+    color: hsl(215, 51%, 70%);
+    font-weight: 200;
+    font-size: 18px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+
+}
+.eth{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    
+}
+.eth p{
+    color: hsl(178, 100%, 50%);
+}
+
+.time{
+    display: flex;
+    align-items: center;
+    
+}
+.time p{
+    color: hsl(215, 51%, 70%);
+}
+.info embed{
+    margin-right: 8px;
+}
+
+.creator{
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+    font-weight: 200;
+    margin-top: 15px;
+    
+}
+.creator img{
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    margin-right: 20px;
+}
+
+.creator a{
+    text-decoration: none;
+    color: white;
+}
+.creator a:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    
+}
+
+footer{
+    bottom: 0px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
